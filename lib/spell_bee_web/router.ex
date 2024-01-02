@@ -21,6 +21,8 @@ defmodule SpellBeeWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    live "hi", HiLive
   end
 
   # Other scopes may use custom stacks.
