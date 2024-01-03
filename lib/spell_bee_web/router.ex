@@ -22,6 +22,7 @@ defmodule SpellBeeWeb.Router do
 
     get "/", PageController, :home
     get "/test", TestController, :start
+    get "/test/:name", TestController, :name
 
     live "hi", HiLive
   end
