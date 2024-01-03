@@ -21,6 +21,7 @@ defmodule SpellBeeWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/test", TestController, :start
 
     live "hi", HiLive
   end
