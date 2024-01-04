@@ -7,7 +7,7 @@ defmodule SpellBeeWeb.TestHTML do
     """
   end
 
-  def template_with_name(%{name: name} = assigns) do
+  def template_with_name(assigns) do
     ~H"""
     Welcome <%= @name %> to the summoners rift
     """
